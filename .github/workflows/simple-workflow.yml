@@ -22,7 +22,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Run a one-line script
-        run: echo Hello, world!
+        run: ls -l
 
       - name: Run a multi-line script
         run: |
